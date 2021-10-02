@@ -7,7 +7,9 @@ def factorial(n):
 
 def main():
   print("main here")
-  print(factorial(4))
+  n = int(input("Masukkan angka: "))
+  print("Hasil faktorialnya: ",end='')
+  print(factorial(n))
   
 if __name__ == '__main__':
   main()
